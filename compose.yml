@@ -1,0 +1,11 @@
+services:
+  view:
+    build: ./view
+    ports:
+      - 80:80
+
+  back:
+    build: ./back
+    ports:
+     - 8080:8080
+      
